@@ -1,0 +1,70 @@
+.header {
+    height:300px;
+    background-image: url("../first-css/travel.jpg");
+    /*background-image: url("../first-html/Screenshot\ 2024-06-02\ 195820.png");*/
+    background-size: auto;
+}
+
+.block {
+    border: 3.5px solid rgb(0, 0, 0);
+    height: 40px;
+    width: 250px ;
+    margin-top: 20px;
+    display: block;
+    /*display: inline;
+    display: inline-block;*/
+}
+.blog1 {
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.author1 {
+    color: red;
+}
+
+.blog2 {
+    background-color: aquamarine;
+    border: 5px solid black;
+    border-radius: 10px;
+    /*margin: 20px 75px 20px 10px;*/
+    margin-top: 20px;
+    margin-right: 75px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 10px 15px 10px 15px;
+    box-shadow: 10px 10px 10px 10px #353535; /*x-offset y-offset blur spread*/
+}
+
+.author2 {
+    color: blueviolet;
+}
+
+.blog2 p {
+    color: blueviolet;
+    text-align: justify;
+}
+
+.blog3 {
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    height: 200px;
+    width: 75%;
+    margin: 10px;
+}
+
+.author3 {
+    color: red;
+}
+
+.blogtitle {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: 7 00;
+}
